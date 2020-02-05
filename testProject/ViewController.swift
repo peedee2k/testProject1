@@ -118,7 +118,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         
     }
     //PickerView
-    //PickerView
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }

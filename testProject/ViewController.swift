@@ -101,7 +101,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         }
     }
 
-    //Done button
+    //Done button Created
     func creatDoneButton() {
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
@@ -119,7 +119,6 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     }
     //PickerView
     
-    //PickerView
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
